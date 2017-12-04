@@ -2,7 +2,7 @@
 
 Languages used:
 =====
-Day 1. Swift
+Day 1. Swift, Ruby
 Day 2. Swift
 Day 3. -
 Day 4. Swift
