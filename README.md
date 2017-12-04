@@ -6,8 +6,9 @@ Day 1. Swift, Ruby
 Day 2. Swift
 Day 3. -
 Day 4. Swift
- 
-[//:]
 
-[Advent of code 2017] <http://adventofcode.com/2017>
+# [Advent of code 2017](http://adventofcode.com/2017) 
+
+
+
  
