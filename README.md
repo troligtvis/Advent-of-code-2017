@@ -1,14 +1,10 @@
-# [Advent of code 2017]
+# Advent of code 2017
 
-Languages used:
+Day (languages used)
 =====
-Day 1. Swift, Ruby
-Day 2. Swift
-Day 3. -
-Day 4. Swift
+1. Swift, Ruby
+2. Swift
+3.
+4. Swift
 
-# [Advent of code 2017](http://adventofcode.com/2017) 
-
-
-
- 
+[Advent of code 2017](http://adventofcode.com/2017) 
