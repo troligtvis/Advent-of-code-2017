@@ -3,37 +3,20 @@ def readInput()
 	return content
 end
 
-def part1()
+def jumping(part)
 	jumps = readInput()
-	totalJumps = 0 
-	i = 0
-	
-	until jumps[i] == nil do 
-		totalJumps += 1
-		jump = jumps[i]
-
-		
-		jumps[i] += 1
-		i += jump
-	end
-
-	puts 'Solution: ' + totalJumps.to_s
-end
-
-def part2()
-	jumps = readInput()
-	totalJumps = 0 
+	totalJumps = 0
 	i = 0
 
 	until jumps[i] == nil do 
 		totalJumps += 1
 		jump = jumps[i]
 
-		if jump >= 3
-			jumps[i] -= 1
-		else
+		if part == 1 
 			jumps[i] += 1
-		end	
+		else 
+			jumps[i] += jump >= 3 ? -1 : 1
+		end
 
 		i += jump
 	end
@@ -41,5 +24,5 @@ def part2()
 	puts 'Solution: ' + totalJumps.to_s 
 end
 
-part1() # 356945
-part2() # 28372145
+jumping(1) # 356945
+jumping(2) # 28372145
