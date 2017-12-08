@@ -5,5 +5,8 @@
 3.
 4. Swift
 5. Ruby
+6. Ruby
+7. Ruby
+8. Ruby
 
 [Advent of code 2017](http://adventofcode.com/2017) 
