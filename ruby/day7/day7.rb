@@ -6,11 +6,7 @@ end
 def part1() 
 	raw = File.read('input.txt')
 	keys = getInput()
-
-	l  = 'some string string'
-	m = l.scan(/string/).size
-	puts m
-
+	
 	root = ''
 	for key in keys 
 		m = raw.scan(/\b#{key}\b/).size
